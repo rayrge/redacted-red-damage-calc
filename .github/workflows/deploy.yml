@@ -5,7 +5,10 @@ name: Deploy to Pages
 on:
   push:
     branches:
-    - main
+    - main  
+
+permissions:
+contents: write
 
 jobs:
   deploy:
